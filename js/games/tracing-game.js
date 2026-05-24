@@ -1,3 +1,5 @@
+import { GameEngine } from '../engine/game-engine.js';
+
 export class TracingGame extends GameEngine {
   constructor(containerId, letterData) {
     super(containerId);

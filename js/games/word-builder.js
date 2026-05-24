@@ -1,3 +1,5 @@
+import { GameEngine } from '../engine/game-engine.js';
+
 export class WordBuilderGame extends GameEngine {
   constructor(containerId, wordsData) {
     super(containerId);

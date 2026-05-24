@@ -20,11 +20,11 @@
 .btn-primary {
   background-color: var(--primary-color);
   color: var(--text-light);
-  box-shadow: 0 4px 0 darken(var(--primary-color), 10%);
+  box-shadow: 0 4px 0 rgba(0,0,0,0.2);
 }
 
 .btn-primary:active {
-  box-shadow: 0 0 0 darken(var(--primary-color), 10%);
+  box-shadow: 0 0 0 rgba(0,0,0,0.2);
   transform: translateY(4px);
 }
 
