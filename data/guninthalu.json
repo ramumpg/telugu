@@ -1,0 +1,12 @@
+{
+  "title": "గుణింతాలు",
+  "baseConsonants": ["క", "చ", "ట", "త", "ప"],
+  "vowelSigns": [
+    {"sign": "", "name": "తలకట్టు", "audio": "a"},
+    {"sign": "ా", "name": "దీర్ఘం", "audio": "aa"},
+    {"sign": "ి", "name": "గుడి", "audio": "i"},
+    {"sign": "ీ", "name": "గుడిదీర్ఘం", "audio": "ee"},
+    {"sign": "ు", "name": "కొమ్ము", "audio": "u"},
+    {"sign": "ూ", "name": "కొమ్ముదీర్ఘం", "audio": "oo"}
+  ]
+}

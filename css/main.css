@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: var(--font-english);
+  background-color: var(--bg-color);
+  color: var(--text-dark);
+  line-height: 1.6;
+  overflow-x: hidden;
+  user-select: none; /* Prevent text selection for a more app-like feel */
+}
+
+/* Base Telugu typography */
+.telugu-text {
+  font-family: var(--font-telugu);
+  line-height: 1.8; /* High line spacing for complex characters */
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 768px; /* Tablet max width for centered UI on desktop */
+  margin: 0 auto;
+  position: relative;
+  background-color: #fff;
+  box-shadow: var(--shadow-lg);
+}
+
+#content {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h1.telugu-text { font-size: var(--text-4xl); }
+h2.telugu-text { font-size: var(--text-3xl); }
+h3.telugu-text { font-size: var(--text-2xl); }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

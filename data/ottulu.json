@@ -1,0 +1,11 @@
+{
+  "title": "ఒత్తులు",
+  "description": "Consonant conjuncts",
+  "items": [
+    {"base": "క", "ottu": "్క", "combined": "క్క", "word": "అక్క"},
+    {"base": "గ", "ottu": "్గ", "combined": "గ్గ", "word": "మొగ్గ"},
+    {"base": "చ", "ottu": "్చ", "combined": "చ్చ", "word": "పచ్చ"},
+    {"base": "ట", "ottu": "్ట", "combined": "ట్ట", "word": "చెట్టు"},
+    {"base": "త", "ottu": "్త", "combined": "త్త", "word": "అత్త"}
+  ]
+}

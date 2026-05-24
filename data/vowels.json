@@ -1,0 +1,22 @@
+{
+  "title": "అచ్చులు",
+  "description": "Vowels",
+  "letters": [
+    {"char": "అ", "audio": "a.mp3", "word": "అమ్మ", "wordAudio": "amma.mp3", "image": "amma.png"},
+    {"char": "ఆ", "audio": "aa.mp3", "word": "ఆవు", "wordAudio": "aavu.mp3", "image": "aavu.png"},
+    {"char": "ఇ", "audio": "i.mp3", "word": "ఇల్లు", "wordAudio": "illu.mp3", "image": "illu.png"},
+    {"char": "ఈ", "audio": "ee.mp3", "word": "ఈగ", "wordAudio": "eega.mp3", "image": "eega.png"},
+    {"char": "ఉ", "audio": "u.mp3", "word": "ఉడుత", "wordAudio": "udutha.mp3", "image": "udutha.png"},
+    {"char": "ఊ", "audio": "oo.mp3", "word": "ఊయల", "wordAudio": "ooyala.mp3", "image": "ooyala.png"},
+    {"char": "ఋ", "audio": "ru.mp3", "word": "ఋషి", "wordAudio": "rushi.mp3", "image": "rushi.png"},
+    {"char": "ౠ", "audio": "roo.mp3", "word": "", "wordAudio": "", "image": ""},
+    {"char": "ఎ", "audio": "e.mp3", "word": "ఎలుక", "wordAudio": "eluka.mp3", "image": "eluka.png"},
+    {"char": "ఏ", "audio": "ee2.mp3", "word": "ఏనుగు", "wordAudio": "eenugu.mp3", "image": "eenugu.png"},
+    {"char": "ఐ", "audio": "ai.mp3", "word": "ఐదు", "wordAudio": "aidu.mp3", "image": "aidu.png"},
+    {"char": "ఒ", "audio": "o.mp3", "word": "ఒంటె", "wordAudio": "onte.mp3", "image": "onte.png"},
+    {"char": "ఓ", "audio": "oo2.mp3", "word": "ఓడ", "wordAudio": "ooda.mp3", "image": "ooda.png"},
+    {"char": "ఔ", "audio": "au.mp3", "word": "ఔషధం", "wordAudio": "aushadham.mp3", "image": "aushadham.png"},
+    {"char": "అం", "audio": "am.mp3", "word": "అంకెలు", "wordAudio": "ankelu.mp3", "image": "ankelu.png"},
+    {"char": "అః", "audio": "aha.mp3", "word": "అంతఃపురం", "wordAudio": "anthapuram.mp3", "image": "anthapuram.png"}
+  ]
+}

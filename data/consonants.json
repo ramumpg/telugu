@@ -1,0 +1,26 @@
+{
+  "title": "హల్లులు",
+  "description": "Consonants",
+  "groups": [
+    {
+      "name": "Ka Varga",
+      "letters": [
+        {"char": "క", "audio": "ka.mp3"},
+        {"char": "ఖ", "audio": "kha.mp3"},
+        {"char": "గ", "audio": "ga.mp3"},
+        {"char": "ఘ", "audio": "gha.mp3"},
+        {"char": "ఙ", "audio": "nya.mp3"}
+      ]
+    },
+    {
+      "name": "Cha Varga",
+      "letters": [
+        {"char": "చ", "audio": "cha.mp3"},
+        {"char": "ఛ", "audio": "chha.mp3"},
+        {"char": "జ", "audio": "ja.mp3"},
+        {"char": "ఝ", "audio": "jha.mp3"},
+        {"char": "ఞ", "audio": "inya.mp3"}
+      ]
+    }
+  ]
+}

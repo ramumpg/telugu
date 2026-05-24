@@ -1,0 +1,18 @@
+{
+  "badges": [
+    {
+      "id": "first_letter",
+      "name": "First Letter!",
+      "description": "Learned your first Telugu letter",
+      "icon": "star.svg",
+      "xpRequired": 10
+    },
+    {
+      "id": "vowels_master",
+      "name": "Vowels Master",
+      "description": "Completed all Achulu",
+      "icon": "crown.svg",
+      "xpRequired": 160
+    }
+  ]
+}

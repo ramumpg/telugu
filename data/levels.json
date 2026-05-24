@@ -1,0 +1,18 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "name": "అచ్చులు పరిచయం",
+      "type": "learn",
+      "module": "vowels",
+      "unlocksXP": 0
+    },
+    {
+      "id": 2,
+      "name": "హల్లులు పరిచయం",
+      "type": "learn",
+      "module": "consonants",
+      "unlocksXP": 100
+    }
+  ]
+}

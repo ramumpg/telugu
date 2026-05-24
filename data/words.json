@@ -1,0 +1,9 @@
+{
+  "title": "పదాలు",
+  "description": "Words",
+  "words": [
+    {"word": "అమ్మ", "meaning": "Mother", "letters": ["అ", "మ్మ"]},
+    {"word": "నాన్న", "meaning": "Father", "letters": ["నా", "న్న"]},
+    {"word": "చెట్టు", "meaning": "Tree", "letters": ["చె", "ట్టు"]}
+  ]
+}
