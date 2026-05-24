@@ -1,16 +1,21 @@
 :root {
-  /* Colors */
-  --primary-color: #FF6B6B;
-  --secondary-color: #4ECDC4;
-  --tertiary-color: #FFE66D;
-  --bg-color: #F7FFF7;
-  --text-dark: #2C3E50;
+  /* Colors - Lingokids/Duolingo style */
+  --primary-color: #58CC02; /* Duolingo Green */
+  --primary-color-dark: #58A700;
+  --secondary-color: #1CB0F6; /* Light Blue */
+  --secondary-color-dark: #1899D6;
+  --tertiary-color: #FFC800; /* Yellow */
+  --tertiary-color-dark: #D7A800;
+  --bg-color: #F7F7F7; /* Soft gray/white background */
+  --text-dark: #4B4B4B;
   --text-light: #FFFFFF;
-  --success-color: #4CAF50;
+  --success-color: #58CC02;
+  --danger-color: #FF4B4B;
+  --card-bg: #FFFFFF;
 
   /* Fonts */
   --font-telugu: 'Mandali', sans-serif;
-  --font-english: 'Poppins', 'Nunito', sans-serif;
+  --font-english: 'Nunito', 'Poppins', sans-serif;
 
   /* Typography */
   --text-xs: 0.75rem;
@@ -19,23 +24,24 @@
   --text-lg: 1.25rem;
   --text-xl: 1.5rem;
   --text-2xl: 2rem;
-  --text-3xl: 3rem;
-  --text-4xl: 4rem;
+  --text-3xl: 2.5rem;
+  --text-4xl: 3.5rem;
 
   /* Layout */
-  --border-radius-sm: 8px;
+  --border-radius-sm: 12px;
   --border-radius-md: 16px;
   --border-radius-lg: 24px;
+  --border-radius-xl: 32px;
   --border-radius-full: 9999px;
 
   /* Shadows */
-  --shadow-sm: 0 2px 4px rgba(0,0,0,0.1);
-  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
-  --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
+  --shadow-sm: 0 2px 0 rgba(0,0,0,0.1);
+  --shadow-md: 0 4px 0 rgba(0,0,0,0.1);
+  --shadow-lg: 0 8px 16px rgba(0,0,0,0.1);
 
   /* Transitions */
-  --transition-fast: 0.2s ease;
-  --transition-normal: 0.3s ease;
+  --transition-fast: 0.15s ease-in-out;
+  --transition-normal: 0.3s ease-in-out;
 }
 
 @font-face {

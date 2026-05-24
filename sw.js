@@ -1,4 +1,4 @@
-const CACHE_NAME = 'telugu-app-v2';
+const CACHE_NAME = 'telugu-app-v4';
 const ASSETS_TO_CACHE = [
   '/',
   '/index.html',
@@ -13,10 +13,32 @@ const ASSETS_TO_CACHE = [
   '/js/state.js',
   '/js/storage.js',
   '/js/audio.js',
+  '/js/learning/varnamala.js',
+  '/js/learning/guninthalu.js',
+  '/js/learning/pronunciation.js',
+  '/js/engine/game-engine.js',
+  '/js/tracing/tracing.js',
+  '/js/games/tracing-game.js',
+  '/js/games/word-builder.js',
+  '/js/games/memory-match.js',
+  '/js/games/bubble-pop.js',
+  '/js/ui/dashboard.js',
+  '/js/ui/rewards.js',
   '/assets/libs/gsap.min.js',
   '/assets/libs/howler.min.js',
   '/assets/libs/lottie.min.js',
-  '/assets/fonts/Mandali-Regular.ttf'
+  '/assets/fonts/Mandali-Regular.ttf',
+  '/assets/icons/icon-192x192.png',
+  '/assets/icons/icon-512x512.png',
+  '/data/vowels.json',
+  '/data/consonants.json',
+  '/data/guninthalu.json',
+  '/data/ottulu.json',
+  '/data/words.json',
+  '/data/levels.json',
+  '/data/rewards.json',
+  '/data/stories.json',
+  '/data/quizzes.json'
 ];
 
 self.addEventListener('install', (event) => {

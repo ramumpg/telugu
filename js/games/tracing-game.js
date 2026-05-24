@@ -34,14 +34,19 @@ export class TracingGame extends GameEngine {
   }
 
   checkAccuracy() {
-    // Basic placeholder for accuracy checking
-    // In a real app, this would compare drawn points with predefined SVGs/paths.
-    if (this.tracingEngine.points.length > 20) {
+    // Better placeholder for accuracy checking
+    if (this.tracingEngine.points.length > 50) {
       this.addScore(10);
-      alert('Good job!');
-      this.tracingEngine.clear();
+      import('../ui/rewards.js').then(({showConfetti}) => {
+        showConfetti();
+      });
+      // Delay before clearing
+      setTimeout(() => {
+        this.tracingEngine.clear();
+        alert('Excellent tracing!');
+      }, 500);
     } else {
-      alert('Keep trying!');
+      alert('Trace a bit more of the letter!');
     }
   }
 }

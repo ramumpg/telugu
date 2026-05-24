@@ -73,6 +73,10 @@ export class TracingEngine {
   render() {
     if (this.points.length < 2) return;
 
+    // Add simple glowing effect
+    this.ctx.shadowBlur = 10;
+    this.ctx.shadowColor = 'var(--primary-color, #58CC02)';
+
     this.ctx.beginPath();
     this.ctx.moveTo(this.points[0].x, this.points[0].y);
 
@@ -80,11 +84,14 @@ export class TracingEngine {
       this.ctx.lineTo(this.points[i].x, this.points[i].y);
     }
 
-    this.ctx.strokeStyle = '#FF6B6B';
-    this.ctx.lineWidth = 10;
+    this.ctx.strokeStyle = 'var(--primary-color, #58CC02)';
+    this.ctx.lineWidth = 15;
     this.ctx.lineCap = 'round';
     this.ctx.lineJoin = 'round';
     this.ctx.stroke();
+
+    // Reset shadow
+    this.ctx.shadowBlur = 0;
   }
 
   clear() {
